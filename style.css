@@ -52,7 +52,7 @@ nav ul li a{
     text-decoration: none;
     color:rgba(255, 255, 255, 0.7);
     font-size: 12px;
-    transition: all 0.3s ease-in;
+    transition: all 0.15s ease-in;
     padding:10px 15px 10px 15px;
     border-radius:8px;
 }
@@ -71,8 +71,12 @@ nav ul li a:hover{
     padding:10px 15px 10px 15px;
     border-radius:8px;
     border:2px solid rgba(255, 255, 255, 0.7);
-    background-color:rgb(44, 101, 206)
+    background-color:rgb(44, 101, 206);
+    cursor:pointer;
+}
 
+#enroll-button:hover{
+    box-shadow: inset 10em 0px gold;
 }
 
 .content{
